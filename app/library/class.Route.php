@@ -1,8 +1,9 @@
 <?php
-namespace App\Route;
-
+namespace App;
 
 class Route
 {
-
+    public function add(){
+        echo "100000000000% working!!!!";
+    }
 }

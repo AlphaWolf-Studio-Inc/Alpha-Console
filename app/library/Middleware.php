@@ -1,6 +1,5 @@
 <?php
-namespace App\Middleware;
-
+namespace App;
 
 class Middleware
 {

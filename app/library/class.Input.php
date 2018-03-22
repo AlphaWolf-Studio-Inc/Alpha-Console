@@ -1,7 +1,7 @@
 <?php
 namespace App;
 
-class Event
+class Input
 {
 
 }

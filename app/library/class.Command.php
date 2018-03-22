@@ -1,6 +1,5 @@
 <?php
-namespace App\Command;
-
+namespace App;
 
 class Command
 {
