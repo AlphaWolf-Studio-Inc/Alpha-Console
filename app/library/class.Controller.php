@@ -1,7 +1,10 @@
 <?php
 namespace App;
 
-class Controller
-{
+class Controller{
+
+    public function terminate($output){
+        var_dump($output);
+    }
 
 }

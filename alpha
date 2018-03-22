@@ -3,3 +3,16 @@
  * Initializing the app
  */
 require __DIR__ . "/app/bootstrapper.php";
+
+
+/**
+ * Register the commands into the input and create a way for the output
+ */
+$command = new App\Command($argv);
+$input   = new App\Input($command);
+$output  = new App\Output($input);
+
+/**
+ * Terminate the application with the results
+ */
+App\Controller::terminate($output);

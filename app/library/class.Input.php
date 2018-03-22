@@ -1,7 +1,9 @@
 <?php
 namespace App;
 
-class Input
-{
+class Input{
+
+    public function __construct($command){
+    }
 
 }
